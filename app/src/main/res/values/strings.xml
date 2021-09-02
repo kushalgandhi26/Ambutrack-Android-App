@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Ambutrack</string>
+    <string name="logo">TODO</string>
+    <string name="splash">TODO</string>
+    <string name="are_you_a">Are you a</string>
+    <string name="patient">Patient</string>
+    <string name="driver">Driver</string>
+    <string name="pattern">TODO</string>
+    <string name="new_driver">New Driver</string>
+    <string name="or">OR</string>
+    <string name="already_a_driver">Already A Driver</string>
+    <string name="register">Register</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="pattern_r">TODO</string>
+    <string name="r_e_g_i_s_t_e_r">R e g i s t e r</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="login">Login</string>
+    <string name="email_id_login">Email ID</string>
+    <string name="password_login">Password</string>
+    <string name="or_login">OR</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="image">TODO</string>
+    <string name="title_activity_main_map">MainMapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="BloodGroup">
+        <item></item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="menu_myprofile">My Profile</string>
+    <string name="menu_history">History</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_logout">Logout</string>
+    <string name="hey_user">Hey User</string>
+    <string name="profile_photo">TODO</string>
+    <string name="my_profile">My Profile</string>
+    <string name="choose_blood_group">Choose Blood Group</string>
+    <string name="permission_require">Location Permission Required</string>
+    <string name="drivers_not_found">Drivers not found!</string>
+    <string name="not_found_key">Not found driver with key</string>
+    <string name="title_activity_request_driver">Map</string>
+    <string name="requesr_driver_failed">Failed to send request to driver</string>
+    <string name="no_driver_accept">There are no driver accept your request.</string>
+    <string name="decline_failed">Decline Failed</string>
+    <string name="decline_success">You have decline this request</string>
+</resources>

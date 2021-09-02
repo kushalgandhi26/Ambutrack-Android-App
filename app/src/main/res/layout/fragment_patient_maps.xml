@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/patient_map"
+    tools:context=".ui.PatientMapsFragment">
+
+    <FrameLayout
+        android:id="@+id/map_patient"
+        android:layout_above="@+id/confirm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.PatientMapsFragment" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fill_maps"
+            android:visibility="gone"
+            android:background="@color/map_darker"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/confirm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/nearby_ambulance" />
+        <include layout="@layout/layout_finding_driver" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirm_layout">
+        <include layout="@layout/on_request_accept"/>
+    </FrameLayout>
+
+</RelativeLayout>
+

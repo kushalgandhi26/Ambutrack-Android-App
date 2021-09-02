@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pattern_r" type="id" />
+    <item name="textView2" type="id" />
+    <item name="contact_number" type="id" />
+    <item name="username" type="id" />
+    <item name="dob" type="id" />
+    <item name="bloodtype" type="id" />
+    <item name="textView5" type="id" />
+    <item name="address" type="id" />
+    <item name="radioGroup" type="id" />
+    <item name="mailid" type="id" />
+    <item name="r_password" type="id" />
+    <item name="female" type="id" />
+    <item name="male" type="id" />
+    <item name="r_repassword" type="id" />
+    <item name="register_button" type="id" />
+</resources>

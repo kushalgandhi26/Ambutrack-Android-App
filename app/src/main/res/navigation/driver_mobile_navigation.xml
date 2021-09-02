@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_driver_map"
+    android:id="@+id/driver_mobile_navigation">
+
+    <fragment
+        android:id="@+id/nav_driver_map"
+        android:name="com.example.ambutrack.ui.DriverMaps"
+        android:label="Map"
+        tools:layout="@layout/driver_maps_fragment"/>
+    <fragment
+        android:id="@+id/nav_driver_profile"
+        android:name="com.example.ambutrack.ui.DriverProfile"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_driver_profile"/>
+    <fragment
+        android:id="@+id/nav_manage_docs"
+        android:name="com.example.ambutrack.ui.ManageDocs"
+        android:label="Manage Docs"
+        tools:layout="@layout/manage_docs_fragment"/>
+    <fragment
+        android:id="@+id/nav_driver_logout"
+        android:name="com.example.ambutrack.ui.DriverLogout"
+        android:label="Logout"
+        tools:layout="@layout/logout_fragment"/>
+
+</navigation>
